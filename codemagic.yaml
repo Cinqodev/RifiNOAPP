@@ -7,7 +7,7 @@ workflows:
       app_store_connect: Codemagic-Admin
     environment:
       flutter: stable
-      xcode: 15.3
+      xcode: 16.4
       cocoapods: default
       ios_signing:
         distribution_type: app_store
@@ -39,7 +39,7 @@ workflows:
     instance_type: mac_mini_m2
     environment:
       flutter: stable
-      xcode: 15.3
+      xcode: 16.4
       cocoapods: default
     scripts:
       - name: Get Flutter packages
