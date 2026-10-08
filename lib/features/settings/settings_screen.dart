@@ -554,7 +554,7 @@ class _AboutCard extends StatelessWidget {
             value: 'contact.kariihab@gmail.com',
             multilineValue: true,
             onTap: () => launchUrl(
-              Uri.parse('https://waa-ihaab.github.io/rifino-support/'),
+              Uri.parse('https://cinqodev.github.io/rifino-support/'),
               mode: LaunchMode.externalApplication,
             ),
           ),
